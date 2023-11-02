@@ -1,0 +1,20 @@
+.gpt3__header-image {
+            top: 119px;
+            left: 0px;
+         width: 1920px;
+         image-orientation:initial;
+            height: 959px;
+        /* UI Properties */
+        background: transparent url('../../assets/Untitled-1.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+
+}
+
+.gpt3__header-image b {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+    
+}
+.gpt3__header-image {
+    margin-left: auto;
+}
