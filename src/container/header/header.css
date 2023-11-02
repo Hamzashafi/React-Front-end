@@ -13,8 +13,23 @@
 .gpt3__header-image b {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: azure;
-    
+    margin-left: 0.2rem;
+}
+
+.gpt3__header-image p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    margin-left: 0.1rem;
 }
 .gpt3__header-image {
     margin-left: auto;
+}
+
+.gpt3__header-image .gpt3__header-content__input{
+    top: 751px;
+left: 144px;
+width: 271px;
+height: 62px;
+border-radius: 31px;
+opacity: 1;
 }
