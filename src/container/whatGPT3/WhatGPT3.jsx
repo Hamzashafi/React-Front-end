@@ -40,7 +40,7 @@ const WhatGPT3 = () => {
       <MDBCol>
         <MDBCard>
           <MDBCardImage
-            src={image2}
+            src={image2} 
           />
           <MDBCardBody>
             <MDBCardTitle>Live Streaming</MDBCardTitle>
