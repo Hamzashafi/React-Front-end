@@ -1,0 +1,26 @@
+.section__header__margin{
+    background-color: black;
+}
+.section__header__margin,
+.header.content h1{
+    color:darkgoldenrod;
+    margin-left: auto;
+    padding-left: 1rem;
+    
+}
+.section__header__margin h2{
+    color:aliceblue;
+}
+ .header__button{
+    top: 1721px;
+left: 214px;
+width: 250px;
+height: 45px;
+/* UI Properties */
+border-radius: 31px;
+opacity: 1;
+ }
+
+ .container__box{
+    display: flex;
+ }
