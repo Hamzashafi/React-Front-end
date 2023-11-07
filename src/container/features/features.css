@@ -1,0 +1,50 @@
+.container{
+    display: inline;
+}
+.container img{
+    margin-right: 10px;
+    max-width: fit-content;
+    padding: 1rem;
+}
+
+.container .top__text,
+.h1{
+    padding-left: 1rem;
+    display:grid;
+}
+.text__front h1{
+    font-size: 24px;
+    color:#000000;
+    margin-left: auto;
+    padding-left: 1rem;
+    display: inline;
+}
+.text__front p{
+    font-size: 16px;
+    color: dimgrey;
+    padding-left: 1rem;
+    display:block;
+    margin-left: auto;
+}
+
+.live__button{
+    padding-left: 1rem;
+}
+.text__front__2 .h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: grey;
+}
+
+.text__front__2 .p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text__front__2 .img{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.button__live{
+    padding-left: 1rem;
+}
+
