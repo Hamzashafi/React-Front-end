@@ -1,5 +1,8 @@
 import React from 'react';
-import {image1, image2, image3} from './import';
+import {RiShoppingBagLine} from 'react-icons/ri';
+import {CiStreamOn} from 'react-icons/ci';
+import {RiComputerLine} from 'react-icons/ri';
+/*import {image1, image2, image3} from './import'; */
 import {
   MDBCard,
   MDBCardImage,
@@ -14,58 +17,46 @@ import './whatGPT3.css';
 
 const WhatGPT3 = () => {
   return (
-    <div className='section__header__margin' >
-    <div className='header__content'>
-      <h1><b>Everything <br />you need</b> </h1>
-      <h2>you need to build better <br />business.</h2>
-      <div className='header__button'>
-        <button type='button'>Start Streaming</button>
+    <><div className="container-fluid p-0 bg-grey">
+      <div className="row">
+        <div className="col-md-6">
+          <h1>Everything you need</h1>
+          <p>you need to build better business.</p>
+        </div>
+        <div className="col-md-6">
+        </div>
       </div>
-    </div>
-    <div className='container__box'>
-    <MDBRow className='row-cols-1 row-cols-md-3 g-4'>
-      <MDBCol>
-        <MDBCard>
-          <MDBCardImage
-            src={image1}
-          />
-          <MDBCardBody>
-            <MDBCardTitle>Shop Creation</MDBCardTitle>
-            <MDBCardText>
-            Quickly create a custom online shop which can be integrated into future livestreams.
-            </MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-      </MDBCol>
-      <MDBCol>
-        <MDBCard>
-          <MDBCardImage
-            src={image2} 
-          />
-          <MDBCardBody>
-            <MDBCardTitle>Live Streaming</MDBCardTitle>
-            <MDBCardText>
-            Ready to make some sales? Effortlessly stream direct to social media channels.
-            </MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-      </MDBCol>
-      <MDBCol>
-        <MDBCard>
-          <MDBCardImage
-            src={image3}
-          />
-          <MDBCardBody>
-            <MDBCardTitle>Product Graphics</MDBCardTitle>
-            <MDBCardText>
-            Create beautiful, custom on-screen product graphics that help drive eyeballs and attention.
-            </MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-      </MDBCol>
-    </MDBRow>
-    </div>
-    </div>
+    </div><div className="container-fluid">
+        <div className="row">
+          <div className="col-md-4">
+            <div className="card">
+              <div className="card-body">
+                <RiShoppingBagLine/>
+                <h5 className="card-title">Shop Creation</h5>
+                <p className="card-text">Quickly create a custorn online shop which can be integrated into future</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card">
+              <div className="card-body">
+                <CiStreamOn/>
+                <h5 className="card-title">Live Streaming</h5>
+                <p className="card-text">Ready to make some sales? Effortlessly stream direct to social media channels</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card">
+              <div className="card-body">
+                <RiComputerLine/>
+                <h5 className="card-title">Product Graphics</h5>
+                <p className="card-text">Create beautiful custom onscreen product graphics that help drive eyeballs and attention</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div></>
   )
 }
 

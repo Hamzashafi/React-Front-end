@@ -1,0 +1,8 @@
+.column__cards{
+    display: flex;
+    padding-left: 0.3rem;
+}
+
+.me-1{
+    margin-left: 270px;
+}

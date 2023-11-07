@@ -1,11 +1,11 @@
-.brand {
+.container-fluid .bg-dark .text-white .py-2{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.brand div img{
+/*.brand div img{
     flex: 1;
     max-width: fit-content;
     min-width:fit-content;
@@ -14,4 +14,4 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
