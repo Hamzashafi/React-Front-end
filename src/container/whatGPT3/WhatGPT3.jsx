@@ -33,7 +33,7 @@ const WhatGPT3 = () => {
               <div className="card-body">
                 <RiShoppingBagLine/>
                 <h5 className="card-title">Shop Creation</h5>
-                <p className="card-text">Quickly create a custorn online shop which can be integrated into future</p>
+                <p className="card-text">Quickly create a custom online shop which can be integrated into future</p>
               </div>
             </div>
           </div>

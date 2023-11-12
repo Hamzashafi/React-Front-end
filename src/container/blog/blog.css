@@ -1,0 +1,21 @@
+.container-fluid,
+.col-md-6, 
+.h1{
+    padding-top: 1rem;
+    padding-right: 1rem;
+    color: black;
+    padding-inline-end: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.col-md-6,
+.img{
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.col-md-6 .a{
+    padding-left: 1rem;
+}
+.col-md-6,
+.p{
+    color: black;
+}
