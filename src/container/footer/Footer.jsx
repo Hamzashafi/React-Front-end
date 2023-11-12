@@ -1,9 +1,41 @@
-import React from 'react'
+import React from 'react';
+import { FooterLogo } from './import';
+import { Facebook, Instagram, Twitter } from './import';
 import './footer.css';
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer className='footer'>
+      <div className='sb__footer-links'>
+        <div className='sb__footer-links_logo'>
+        <img src={FooterLogo} alt='logo' />
+        </div>
+        <div className='sb__footer-links-dev'>
+          <a href="About">
+            <h5>About</h5>
+          </a>
+          <a href="TermsofService">
+            <h5>Terms of Service</h5>
+          </a>
+          <a href="PrivacyPolicy">
+            <h5>Privacy Policy</h5>
+          </a>
+        </div>
+        <hr></hr>
+        <div className='sb__footer-links-div'>
+          <div className='SocialMedia'>
+            <p><img src={Facebook} alt="Facebook" /></p>
+            <p><img src={Instagram} alt="Instagram" /></p>
+            <p><img src={Twitter} alt="Twitter" /></p>
+          </div>
+        </div>
+        <div className='sb__footer-below'>
+          <div className='sb__footer-copyright'>
+            <p>Powered by METAMORPH DIGITAL (PRIVATE) LIMITED</p>
+          </div>
+        </div>
+          </div>
+    </footer>
   )
 }
 
