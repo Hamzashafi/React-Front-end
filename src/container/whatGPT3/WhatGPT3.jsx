@@ -20,7 +20,7 @@ const WhatGPT3 = () => {
     <><div className="container-fluid p-0 bg-grey">
       <div className="row">
         <div className="col-md-6">
-          <h1>Everything you need</h1>
+          <h1>Everything <br />you need</h1>
           <p>you need to build better business.</p>
         </div>
         <div className="col-md-6">

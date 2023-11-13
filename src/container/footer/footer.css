@@ -1,11 +1,10 @@
 .footer{
-    display: flex;
+    display:grid;
     background-color: goldenrod;
 }
 
 .sb__fotter{
-    display: flex;
-    flex-direction: column;
+    display:flex;
 }
 
 .sb__footer-links{
@@ -25,6 +24,10 @@
     justify-content: flex-start;
     flex-direction: column;
     color: white;
+}
+.footer,
+.sb__footer-links-dev{
+    display: flex;
 }
 
 .sb__footer-links_logo {
@@ -57,8 +60,7 @@
 
 .sb__footer-links-div,
 .SocialMedia{
-    display: flex;
-    flex-direction: row;
+    display: contents;
 }
 
 .SocialMedia img{

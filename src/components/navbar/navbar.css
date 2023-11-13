@@ -1,19 +1,29 @@
 .gpt3__navbar {
-    display: flex;
+    display:flex;
+    background-color: white;
 }
 
+
 .gpt3__navbar-links_logo {
-    margin-left: 1rem;
-    margin-top: 1rem;
-    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 0rem;
 }
 
 .gpt3__navbar-links_logo img {
     /* Layout Properties */
 
-    width: 150px;
+    width: 120px;
     height: 50px;
-    margin-top: auto;
+
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
 }
 
 .gpt3__navbar-sign {

@@ -1,10 +1,17 @@
-.container-fluid .bg-dark .text-white .py-2{
+.container-fluid .bg-white 
+ 
+{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    align-items:flex-start;
 }
 
+.col-md-4 h5{
+    color: black;
+    background-position: 0%;
+}
+.col-md-4 p{
+    color: rgb(85, 85, 85);
+}
 /*.brand div img{
     flex: 1;
     max-width: fit-content;
