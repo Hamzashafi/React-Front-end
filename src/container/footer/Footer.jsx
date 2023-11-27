@@ -14,10 +14,10 @@ const Footer = () => {
           <a href="About">
             <h5>About</h5>
           </a>
-          <a href="TermsofService">
+          <a href="Terms of Service">
             <h5>Terms of Service</h5>
           </a>
-          <a href="PrivacyPolicy">
+          <a href="Privacy Policy">
             <h5>Privacy Policy</h5>
           </a>
         </div>
@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
         <div className='sb__footer-below'>
           <div className='sb__footer-copyright'>
-            <p>Powered by METAMORPH DIGITAL (PRIVATE) LIMITED</p>
+            <p>Powered by META MORPH DIGITAL (PRIVATE) LIMITED</p>
           </div>
         </div>
           </div>

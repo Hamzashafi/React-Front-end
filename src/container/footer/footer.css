@@ -3,7 +3,7 @@
     background-color: rgb(240, 174, 7);
 }
 
-.sb__fotter{
+.sb__footer{
     display:flex;
 }
 
@@ -86,14 +86,14 @@ hr{
 }
 
 @media screen and (max-width: 850px) {
-    .sb__fotter--heading h5 {
+    .sb__footer--heading h5 {
         font-size: 44px;
         line-height: 50px;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .sb__fotter h5 {
+    .sb__footer h5 {
         font-size: 34px;
         line-height: 42px;
     }
