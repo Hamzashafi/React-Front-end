@@ -1,11 +1,18 @@
-.container-fluid,
-.row
+.Blog{
+    display: flex;
+    margin-top: 1rem;
+
+}
+
 
 .col-md-6, 
 .h1{
     padding-top: 1rem;
+    margin-top: 1rem;
+    margin-right: 70%;
     background-position: 100%; 
     padding-right: 1rem;
+    margin-left: 10px;
     
     padding-inline-end: 1rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -14,12 +21,28 @@
 .img{
     padding-left: 1rem;
     padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 50% !important;
+    height: 50%!important;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
+    border-radius: 2px;
+    
+    transition: all .2s ease-in-out;
+    overflow: hidden;
+    cursor: pointer;
+    color:#fff;
+
 }
-.container-fluid,
-.col-md-6,
-.h1{
-    color:black;
-}
+
 .col-md-6 .a{
     padding-left: 1rem;
 }

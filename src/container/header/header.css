@@ -1,10 +1,14 @@
 .gpt3__header-image {
-    background: transparent url('../../assets/Untitled-1.png')  no-repeat padding-box;
-    /*opacity: 1; */
+    background: url(C:\Users\Hamza\Downloads\React-Front-end\src\assets\Untitled-1.png) no-repeat center;
     background-position: 300%;
     background-size: auto;
+    
     width: 1780px;  
     height: 37rem;
+    position: relative;
+    
+    display:flexbox;
+    justify-content: center;
     
     align-items: center;
 }
@@ -45,6 +49,25 @@ width: 271px;
 height: 62px;
 border-radius: 31px;
 opacity: 1;
+}
+
+.gpt3__header-content__input button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 31px;
+    cursor: pointer;
+    width: 50%;
+    height: 95%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    outline: none;
 }
 
 @media screen and (max-width: 1050px) {

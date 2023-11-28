@@ -16,7 +16,7 @@ const Blog = () => {
             Internet. With Uchlo, it's like you've got a backstage pass to your customers'
             favorite show. Get ready to move some maal!
           </p>
-          <a href="#" className="btn btn-dark">Start Sharing</a>
+          <a href="#" className="button">Start Sharing</a>
         </div>
         
       </div>

@@ -21,11 +21,9 @@ const Features = () => {
         <p>You've got an audience that would follow you to the ends of the earth (or at least <br />to the end of their feed). 
         But are you making the most of it? Are you rolling in <br /> dough, 
         or just rolling out content? With Uchlo, you can do both—create and cash <br /> in!</p>
-       <div className='live__button'>
-       <MDBBtn >  
+       <button className='button__2'>
         Go Live
-      </MDBBtn>
-       </div>
+       </button>
        &nbsp;&nbsp;&nbsp;
        <div className='text__front__2'>
         <h1 className="section-title"><b>Marketing that matters</b></h1>
@@ -38,9 +36,13 @@ const Features = () => {
         <img src={imagelogo2} alt="Marketing that matters" />
         <div className='logo__style'>
        <img src={logo1} alt="" />
+       &nbsp;&nbsp;&nbsp;
        <img src={logo2} alt="" />
+       &nbsp;&nbsp;&nbsp;
        <img src={logo3} alt="" />
+       &nbsp;&nbsp;&nbsp;
        <img src={logo4} alt="" />
+       &nbsp;&nbsp;&nbsp;
         <button className="button">Go Live</button>
        </div>
       </div>

@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
         <div className='sb__footer-below'>
           <div className='sb__footer-copyright'>
-            <p>Powered by META MORPH DIGITAL (PRIVATE) LIMITED</p>
+            <p>Powered by <b>META MORPH DIGITAL (PRIVATE) LIMITED</b></p>
           </div>
         </div>
           </div>
