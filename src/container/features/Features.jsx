@@ -9,9 +9,13 @@ import './features.css';
 const Features = () => {
   return (
     <div className='container'>
-      <div className='top__text'><h1><b>The power of creators!</b></h1>
-      <img src={imagelogo} alt='logo'  />
+      <div className='top__text'>
+        <h1><b>The power <br /> of creators!</b></h1>
       </div>
+    <div className='head__image'>
+      <img src={imagelogo} alt='Girl'  />
+      </div>
+     
       <div className='text__front'>
         <h1>Influence meets impact</h1>
         <p>You've got an audience that would follow you to the ends of the earth (or at least <br />to the end of their feed). 
@@ -24,24 +28,22 @@ const Features = () => {
        </div>
        &nbsp;&nbsp;&nbsp;
        <div className='text__front__2'>
-        <h1> Marketing That 
-          Matters</h1>
-        <img src={imagelogo2}  />
-        <p>Time to drop that megaphone and stop shouting offers into the black hole of the <br /> Internet. 
-          With Uchlo, it's like you’ve got a backstage pass to your customers’ <br />favorite show. 
-          Get ready to move some maal!</p>
-       </div>
-       <div className='logo__style'>
-       <img src={logo1} />
+        <h1 className="section-title"><b>Marketing that matters</b></h1>
+        <p className="section-text">
+          Time to drop that megaphone and stop shouting offers into the black hole of <br />
+          the internet. With Uchlo, it's like you've got a backstage pass to
+          your customers' <br /> favorite show. Get ready to move some maal!
+        </p>
+        
+        <img src={imagelogo2} alt="Marketing that matters" />
+        <div className='logo__style'>
+       <img src={logo1} alt="" />
        <img src={logo2} alt="" />
        <img src={logo3} alt="" />
        <img src={logo4} alt="" />
-       <div className='button__live'>
-       <MDBBtn>
-        Go Live
-       </MDBBtn>
+        <button className="button">Go Live</button>
        </div>
-       </div>
+      </div>
       </div>
       </div>
   )
